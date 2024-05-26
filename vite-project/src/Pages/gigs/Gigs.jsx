@@ -22,7 +22,9 @@ function Gigs() {
   return (
     <div className="gigs-component">
       <div className="gigs-container">
-        <span className="gigs-breadcrumbs">Liverr - Graphics & Design -</span>
+        <span className="gigs-breadcrumbs">
+          Digically / Graphics & Design /
+        </span>
         <h1>AI Artists</h1>
         <p>
           Explore the boundaries of art and technology with Liverr's AI artists
@@ -39,7 +41,7 @@ function Gigs() {
             <span className="gigs-sortType">
               {sort === "sales" ? "Best Selling" : "Newest"}
             </span>
-            <img src="./img/down.png" alt="" onClick={() => setOpen(!open)} />
+            <img src="../img/down.png" alt="" onClick={() => setOpen(!open)} />
             {open && (
               <div className="gigs-rightMenu">
                 {sort === "sales" ? (
