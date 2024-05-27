@@ -54,6 +54,7 @@ function Gigs() {
             )}
           </div>
         </div>
+
         <div className="gigs-cards">
           {gigs.map((gig) => (
             <GigCard key={gig.id} item={gig} />

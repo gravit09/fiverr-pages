@@ -51,21 +51,21 @@ function Navbar() {
                 <div className="options">
                   {currentUser.isSeller && (
                     <>
-                      <Link className="link" to="/mygigs">
+                      <Link className="link" to="">
                         Gigs
                       </Link>
-                      <Link className="link" to="/add">
+                      <Link className="link" to="">
                         Add New Gig
                       </Link>
                     </>
                   )}
-                  <Link className="link" to="/orders">
+                  <Link className="link" to="">
                     Orders
                   </Link>
-                  <Link className="link" to="/messages">
+                  <Link className="link" to="">
                     Messages
                   </Link>
-                  <Link className="link" to="/">
+                  <Link className="link" to="">
                     Logout
                   </Link>
                 </div>
