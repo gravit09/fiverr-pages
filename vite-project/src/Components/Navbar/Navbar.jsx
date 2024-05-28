@@ -31,7 +31,7 @@ function Navbar() {
       <div className="container">
         <div className="logo">
           <Link className="link" to="/">
-            <span className="text">liverr</span>
+            <span className="text">Digically</span>
           </Link>
           <span className="dot">.</span>
         </div>
@@ -51,7 +51,7 @@ function Navbar() {
                 <div className="options">
                   {currentUser.isSeller && (
                     <>
-                      <Link className="link" to="">
+                      <Link className="link" to="/myGigs">
                         Gigs
                       </Link>
                       <Link className="link" to="">

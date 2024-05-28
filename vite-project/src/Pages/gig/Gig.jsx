@@ -3,11 +3,12 @@ import "./Gig.scss";
 import { Slider } from "infinite-react-carousel/lib";
 
 function Gig() {
+  //isper route hona cheiya sabhe card se
   return (
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">Liverr > Graphics & Design ></span>
+          <span className="breadcrumbs">Digically / Graphics & Design /</span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
