@@ -6,6 +6,9 @@ import Footer from "./Components/Footer/Footer";
 import Gigs from "./Pages/gigs/Gigs";
 import Gig from "./Pages/gig/Gig";
 import MyGigs from "./Pages/myGigs/MyGigs";
+import Add from "./Pages/add/Add";
+import Orders from "./Pages/orders/Orders";
+import Messages from "./Pages/messages/Messages";
 
 function App() {
   const Layout = () => {
@@ -34,6 +37,18 @@ function App() {
         {
           path: "/myGigs",
           element: <MyGigs />,
+        },
+        {
+          path: "/add",
+          element: <Add />,
+        },
+        {
+          path: "/orders",
+          element: <Orders />,
+        },
+        {
+          path: "/messages",
+          element: <Messages />,
         },
       ],
     },

@@ -54,15 +54,15 @@ function Navbar() {
                       <Link className="link" to="/myGigs">
                         Gigs
                       </Link>
-                      <Link className="link" to="">
+                      <Link className="link" to="/add">
                         Add New Gig
                       </Link>
                     </>
                   )}
-                  <Link className="link" to="">
+                  <Link className="link" to="/orders">
                     Orders
                   </Link>
-                  <Link className="link" to="">
+                  <Link className="link" to="/messages">
                     Messages
                   </Link>
                   <Link className="link" to="">
