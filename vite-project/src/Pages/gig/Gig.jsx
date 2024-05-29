@@ -3,7 +3,6 @@ import "./Gig.scss";
 import { Slider } from "infinite-react-carousel/lib";
 
 function Gig() {
-  //isper route hona cheiya sabhe card se
   return (
     <div className="gig">
       <div className="container">

@@ -42,16 +42,14 @@ function Gigs() {
               {sort === "sales" ? "Best Selling" : "Newest"}
             </span>
             <img src="../img/down.png" alt="" onClick={() => setOpen(!open)} />
-            {open && (
-              <div className="gigs-rightMenu">
-                {sort === "sales" ? (
-                  <span onClick={() => reSort("createdAt")}>Newest</span>
-                ) : (
-                  <span onClick={() => reSort("sales")}>Best Selling</span>
-                )}
-                <span onClick={() => reSort("sales")}>Popular</span>
-              </div>
-            )}
+            <div className={`gigs-rightMenu ${open ? "show" : ""}`}>
+              {sort === "sales" ? (
+                <span onClick={() => reSort("createdAt")}>Newest</span>
+              ) : (
+                <span onClick={() => reSort("sales")}>Best Selling</span>
+              )}
+              <span onClick={() => reSort("sales")}>Popular</span>
+            </div>
           </div>
         </div>
 
