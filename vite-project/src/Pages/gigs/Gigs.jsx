@@ -26,7 +26,7 @@ function Gigs() {
           Digically / Graphics & Design /
         </span>
         <h1>AI Artists</h1>
-        <p>
+        <p className="gigs-para">
           Explore the boundaries of art and technology with Liverr's AI artists
         </p>
         <div className="gigs-menu">

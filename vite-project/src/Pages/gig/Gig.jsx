@@ -27,14 +27,17 @@ function Gig() {
           </div>
           <Slider slidesToShow={1} arrowsScroll={1} className="slider">
             <img
+              className="slider-img"
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
             <img
+              className="slider-img"
               src="https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
             <img
+              className="slider-img"
               src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />

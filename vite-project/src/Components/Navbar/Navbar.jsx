@@ -65,7 +65,7 @@ function Navbar() {
                   <Link className="link" to="/messages">
                     Messages
                   </Link>
-                  <Link className="link" to="">
+                  <Link className="link" to="/login">
                     Logout
                   </Link>
                 </div>
