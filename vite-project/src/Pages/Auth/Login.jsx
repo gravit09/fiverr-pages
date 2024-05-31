@@ -103,10 +103,10 @@ function Login() {
                   className="w-full px-6 py-5 mb-5 text-sm font-bold leading-none text-white transition duration-300 md:w-96 rounded-2xl focus:ring-4"
                   style={{
                     backgroundColor: "#1877F2",
-                    "--tw-ring-color": "#a3f3c1",
+                    "--tw-ring-color": "#17a9fd",
                   }}
                   onMouseEnter={(e) =>
-                    (e.target.style.backgroundColor = "#17a65f")
+                    (e.target.style.backgroundColor = "#17a9fd")
                   }
                   onMouseLeave={(e) =>
                     (e.target.style.backgroundColor = "#1877F2")

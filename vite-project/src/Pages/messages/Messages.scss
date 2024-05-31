@@ -49,6 +49,9 @@
           cursor: pointer;
           border-radius: 8px;
         }
+        button:hover {
+          background-color: #17a9fd;
+        }
 
         &.active {
           background-color: #1877f20f;

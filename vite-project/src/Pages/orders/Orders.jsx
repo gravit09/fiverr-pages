@@ -20,6 +20,7 @@ const Orders = () => {
             <th>Title</th>
             <th>Price</th>
             {<th>{currentUser.isSeller ? "Buyer" : "Seller"}</th>}
+            <th>Status</th>
             <th>Contact</th>
           </tr>
           <tr>
@@ -35,6 +36,7 @@ const Orders = () => {
               59.<sup>99</sup>
             </td>
             <td>Maria Anders</td>
+            <td>Completed</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -52,6 +54,8 @@ const Orders = () => {
               79.<sup>99</sup>
             </td>
             <td>Francisco Chang</td>
+            <td>Completed</td>
+
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -69,6 +73,7 @@ const Orders = () => {
               110.<sup>99</sup>
             </td>
             <td>Roland Mendel</td>
+            <td>Pending</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -86,6 +91,7 @@ const Orders = () => {
               39.<sup>99</sup>
             </td>
             <td>Helen Bennett</td>
+            <td>Completed</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -103,6 +109,7 @@ const Orders = () => {
               119.<sup>99</sup>
             </td>
             <td>Yoshi Tannamuri</td>
+            <td>Completed</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -120,6 +127,7 @@ const Orders = () => {
               49.<sup>99</sup>
             </td>
             <td>Giovanni Rovelli</td>
+            <td>Pending</td>
             <td>
               <img className="message" src="./img/message.png" alt="" />
             </td>

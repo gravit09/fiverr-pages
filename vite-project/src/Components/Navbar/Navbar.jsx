@@ -33,7 +33,6 @@ function Navbar() {
           <Link className="link" to="/">
             <span className="text">Digically</span>
           </Link>
-          <span className="dot">.</span>
         </div>
         <div className="links">
           <span>Digically Business</span>

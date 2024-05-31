@@ -38,6 +38,8 @@ const Add = () => {
             <input type="number" />
             <label htmlFor="">Delivery Time (e.g. 3 days)</label>
             <input type="number" />
+            <label htmlFor="">Maximum Pending Order</label>
+            <input type="number" />
             <label htmlFor="">Add Tags</label>
             <textarea
               name=""
