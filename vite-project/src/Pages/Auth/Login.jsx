@@ -102,14 +102,14 @@ function Login() {
                 <button
                   className="w-full px-6 py-5 mb-5 text-sm font-bold leading-none text-white transition duration-300 md:w-96 rounded-2xl focus:ring-4"
                   style={{
-                    backgroundColor: "#1dbf73",
+                    backgroundColor: "#1877F2",
                     "--tw-ring-color": "#a3f3c1",
                   }}
                   onMouseEnter={(e) =>
                     (e.target.style.backgroundColor = "#17a65f")
                   }
                   onMouseLeave={(e) =>
-                    (e.target.style.backgroundColor = "#1dbf73")
+                    (e.target.style.backgroundColor = "#1877F2")
                   }
                 >
                   Sign In

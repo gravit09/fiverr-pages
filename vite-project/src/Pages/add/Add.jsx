@@ -32,32 +32,34 @@ const Add = () => {
               cols="0"
               rows="16"
             ></textarea>
-            <button>Create</button>
           </div>
           <div className="details">
-            <label htmlFor="">Service Title</label>
-            <input type="text" placeholder="e.g. One-page web design" />
-            <label htmlFor="">Short Description</label>
+            <label htmlFor="">Price</label>
+            <input type="number" />
+            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
+            <input type="number" />
+            <label htmlFor="">Add Tags</label>
             <textarea
               name=""
               id=""
-              placeholder="Short description of your service"
+              placeholder="Add tags related to your Gig"
               cols="30"
               rows="10"
             ></textarea>
-            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
-            <input type="number" />
+            <label htmlFor="">Add Message to the Buyer</label>
+            <textarea
+              name=""
+              id=""
+              placeholder="Add a short Message to the Buyer"
+              cols="30"
+              rows="10"
+            ></textarea>
+
             <label htmlFor="">Revision Number</label>
-            <input type="number" />
-            <label htmlFor="">Add Features</label>
-            <input type="text" placeholder="e.g. page design" />
-            <input type="text" placeholder="e.g. file uploading" />
-            <input type="text" placeholder="e.g. setting up a domain" />
-            <input type="text" placeholder="e.g. hosting" />
-            <label htmlFor="">Price</label>
             <input type="number" />
           </div>
         </div>
+        <button>Create</button>
       </div>
     </div>
   );
